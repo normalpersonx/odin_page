@@ -13,8 +13,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 150px 0 150px;
 
 }
 
@@ -27,7 +28,7 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    gap: 25px;
+    gap: 15px;
 }
 
 li {
@@ -45,7 +46,6 @@ li {
 .content1 {
     display: flex;
     flex-direction: column;
-    padding: 25px;
     margin-right: 150px;
     align-items: flex-start;
 }
@@ -77,6 +77,7 @@ button {
     color: white;
     background-color: #3882F6;
     border-radius: 10px;
+    border: none;
 }
 
 .icons {
@@ -150,6 +151,7 @@ button {
     padding: 45px 200px;
     color:#F9FAF8;
     justify-content: space-between;
+    gap: 100px;
     flex-shrink: 0;
 }
 
@@ -171,4 +173,6 @@ button {
     display: flex;
     margin-left: 20px;
     text-align: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 15px;
 }
